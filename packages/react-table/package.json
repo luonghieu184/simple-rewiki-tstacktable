@@ -1,6 +1,6 @@
 {
   "name": "@rewikipx/simple-rewiki-tstacktable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Headless UI for building powerful tables & datagrids for React and future development web3.",
   "author": "Rewiki Px",
@@ -18,25 +18,12 @@
     "datagrid"
   ],
   "type": "commonjs",
-  "module": "build/lib/index.esm.js",
-  "main": "build/lib/index.js",
-  "types": "build/lib/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./build/lib/index.d.ts",
-      "import": "./build/lib/index.mjs",
-      "default": "./build/lib/index.js"
-    },
-    "./package.json": "./package.json"
-  },
   "sideEffects": false,
   "engines": {
     "node": ">=12"
   },
   "files": [
-    "build/lib/*",
-    "build/umd/*",
-    "src"
+    "*"
   ],
   "scripts": {
     "clean": "rimraf ./build",
