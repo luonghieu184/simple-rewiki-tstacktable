@@ -1,6 +1,7 @@
 {
   "name": "@rewikipx/simple-rewiki-tstacktable",
   "version": "1.0.0",
+  "private": false,
   "description": "Headless UI for building powerful tables & datagrids for React and future development web3.",
   "author": "Rewiki Px",
   "license": "MIT",
