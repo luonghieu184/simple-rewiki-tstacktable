@@ -56,5 +56,8 @@
   "peerDependencies": {
     "react": ">=16",
     "react-dom": ">=16"
+  },
+  "bugs": {
+    "url": "https://github.com/luonghieu184/simple-rewiki-tstacktable/issues"
   }
 }
